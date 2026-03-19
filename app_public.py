@@ -19,7 +19,7 @@ if not api_key:
 
 # AI 설정
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 uploaded_file = st.file_uploader("수학 문제 이미지를 업로드하세요", type=['png', 'jpg', 'jpeg'])
 
